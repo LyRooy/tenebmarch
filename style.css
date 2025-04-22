@@ -1,9 +1,23 @@
-body {
+html, body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   background: #111;
   color: #eee;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 header, footer {
@@ -41,12 +55,6 @@ nav a {
 
 nav a:hover {
   background: #444;
-}
-
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 h2 {
