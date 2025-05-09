@@ -1,3 +1,4 @@
+/* Reset i pełna wysokość */
 html, body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   background: #111;
@@ -7,12 +8,14 @@ html, body {
   height: 100%;
 }
 
+/* Body jako kontener Flexbox */
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
+/* Główna treść rozciąga się */
 main {
   flex-grow: 1;
   padding: 2rem;
@@ -20,6 +23,7 @@ main {
   margin: 0 auto;
 }
 
+/* Styl nagłówka i stopki */
 header, footer {
   background: #222;
   text-align: center;
@@ -27,11 +31,13 @@ header, footer {
   border-bottom: 1px solid #444;
 }
 
+/* Styl nagłówka h1 */
 header h1 {
   margin: 0;
   color: #ffcc00;
 }
 
+/* Styl nawigacji */
 nav ul {
   list-style: none;
   background: #333;
@@ -57,6 +63,7 @@ nav a:hover {
   background: #444;
 }
 
+/* Styl nagłówków h2 */
 h2 {
   color: #ffcc00;
 }
